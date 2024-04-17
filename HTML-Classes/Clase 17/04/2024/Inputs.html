@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Available Inputs</h1>
+    <h3>Text</h3>
+    <!--This code allows me to enter the first and last name -->
+    <!-- Placeholder allows me to put text inside the input, you must always give the input a name -->
+    <input type="text" name="txtnombre" id="nombre" placeholder="Nombre" maxlength="15">
+    <input type="text" name="txtapellido" id="apellido" placeholder="Apellido" maxlength="15">
+    <input type="text" name="txtedad" id="edad" placeholder="Edad" maxlength="3">
+    <input type="text" size="2">
+
+    <!-- this allows me to add read-only inputs -->
+    <input type="text" value="500" readonly="readonly">
+    <input type="text" value="500" disabled="disabled">
+
+    <!-- This allows me to add a number selector -->
+    <!-- the second advances 5 at a time -->
+    <h3>Numerics</h3>
+    <input type="number">
+    <input type="number" min="10" max="70" step="5">
+
+    <!-- Set calendar and time -->
+    <h3>Calendar and time</h3>
+    <input type="date">
+    <input type="time">
+    <input type="datetime-local">
+    <input type="week">
+    <input type="month">
+
+    <!-- search,password,hidden and color -->
+    <h3>Others</h3>
+    <input type="search" name="search" id="search"  placeholder="search">
+    <input type="password" name="password" id="password" placeholder="password">
+    <input type="hidden" name="hidden" id="hidden">
+    <input type="color">
+
+    <!-- email,url,cellphone,send  -->
+<form action="">
+    <input type="email" name="email" id="email" placeholder="Email">
+    <input type="url" name="url" id="url" placeholder="URL">
+    <input type="tel" name="tel" id="tel" placeholder="Telefono">
+    <input type="submit" value="Enviar">
+</form>
+    <!-- upload files to the server and choose what types of files can be uploaded -->
+    <h3>Upload file to server</h3>
+    <input type="file" name="file" id="file" accept=".pptx, .pdf">
+
+    <!-- Buttons and boxes to select options -->
+    <!-- so that more than one cannot be selected, they must all have the same name -->
+    <h3>Options</h3>
+    <input type="checkbox" name="chkSerie" id="check" value="1">GOT
+    <input type="checkbox" name="chkSerie" id="check" value="2">Xfile
+    <input type="checkbox" name="chkSerie" id="check" value="3">Breaking Bad
+    <input type="checkbox" name="chkSerie" id="check" value="4">Viking
+    <br><br><br>
+    <input type="radio" name="rdoAnime" values="1">Naruto
+    <input type="radio" name="rdoAnime" values="2">One punch man
+    <input type="radio" name="rdoAnime" values="3">SNK
+    <input type="radio" name="rdoAnime" values="4">One Piece
+    <br><br><br><br><br>
+    <label form="lstMovies">Movies</label>
+    <select name="lstMovies" id="lstMovies">
+        <option value="1">The Godfather</option>
+        <option value="2">The Godfather II</option>
+        <option value="3">The Godfather III</option>
+        <option value="4">The Godfather IV</option>
+
+    
+</body>
+</html>
