@@ -23,3 +23,11 @@ function sumar3(numero1,numero2)
     let resultado = Number(numero1)  + Number(numero2);
     alert("the result is: " + resultado);
 }
+
+function restar(numero1,numero2)
+{
+    let numero1 =document.getElementById("txtNumero1").value;
+    let numero1 =document.getElementById("txtNumero2").value;
+    let resultado = Number(numero1)  - Number(numero2);
+    alert("the result is: " + resultado);
+}
