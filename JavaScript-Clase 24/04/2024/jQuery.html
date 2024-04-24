@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>JQuery</title>
+</head>
+<script>
+    //JS or JQuery
+    //jquery start block
+    $(function()
+    {
+
+        alert('hello world jquery');
+        $('.btnevent').click(function()
+        {
+            alert('hello world jquery event');
+            $('.title').hide();
+            alert("El valor es:" + $('.number').val());
+        });
+
+    });
+    //jquery end block
+</script>
+<body>
+    <h1 class="title">Hello world</h1>
+    <h2 id title2>hello world 2</h2>
+    <input type="text" class="number" id="txtNumber1">
+    <button class="btnevent">Event</button>
+    
+    
+    
+</body>
+</html>
