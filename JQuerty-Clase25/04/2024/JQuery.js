@@ -7,8 +7,8 @@ $(function(){
 
     }
 
+//SEARCH ON OTHER REPOSITORY/Dont Forget
 
 
-
-
+$('.btnLogin').click(function(){
 });
